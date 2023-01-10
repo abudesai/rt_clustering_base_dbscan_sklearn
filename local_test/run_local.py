@@ -62,7 +62,12 @@ target_field = "__target__"  # this is a hard_coded internal field
 def create_ml_vol():
     dir_tree = {
         "ml_vol": {
-            "inputs": {"data_config": None, "data": {"clusteringBaseMainInput": None}},
+            "inputs": {
+                "data_config": None, 
+                "data": {
+                    "clusteringBaseMainInput": None
+                    }
+                },
             "model": {
                 "model_config": None,
                 "artifacts": None,

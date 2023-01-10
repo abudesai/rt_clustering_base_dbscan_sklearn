@@ -1,4 +1,4 @@
-DBSCAN Model build in Sklearn for Clustering - Base problem category as per Ready Tensor specifications.
+DBSCAN Model built in Sklearn for Clustering - Base problem category as per Ready Tensor specifications.
 
 - DBSCAN
 - clustering

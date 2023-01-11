@@ -103,11 +103,6 @@ def copy_example_files(dataset_name):
         f"{local_datapath}/{dataset_name}/{dataset_name}.csv",
         os.path.join(data_path, f"{dataset_name}.csv"),
     )
-    # hyperparameters
-    shutil.copyfile(
-        "./examples/hyperparameters.json",
-        os.path.join(hyper_param_path, "hyperparameters.json"),
-    )
 
 
 def train_and_predict():
@@ -344,7 +339,7 @@ if __name__ == "__main__":
         "unequal_variance_blobs",
         "vehicle_silhouettes2",
     ]
-    datasets = ["concentric_circles"]
+    datasets = ["iris"]
 
     for run_hpt in run_hpt_list:
         all_results = []
